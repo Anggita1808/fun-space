@@ -1,0 +1,159 @@
+body {
+    margin: 0%;
+    background-image: url(./header2.jpg);
+    background-size: cover;
+}
+
+.menunya {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+}
+.menu .headnya .awannya {
+    margin-top: 240px;
+}
+
+.headnya {
+    text-align: center;
+    clear: both;
+}
+
+img {
+    width: 100%;
+    
+}
+
+.menu .headnya .list ul {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+}
+
+
+.headnya ul {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 30%;
+}
+
+.headnya ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.headnya ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.headnya ul li a:hover{
+    color: rgb(165, 198, 229);
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 55px;
+    font-family: sans-serif;
+    color: #444;
+    border: 1px solid #f2f5f7;
+}
+
+table tr th{
+    background: rgb(148, 185, 218);
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+}
+
+table, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+table tr:hover {
+    background-color: grey;
+}
+
+
+table tr {
+    background-color: #f5f5f5;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td a {
+    background-color: rgb(41, 235, 15);
+    border-radius: 3px;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+td.i a {
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+.tambah {
+    background-color: rgb(90, 140, 248);
+    border-radius: 3px;
+    border: none;
+    padding: 5px 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10PX;
+}
+
+
+.backyh {
+    margin-top: 40px;
+    width: 85%;
+    height: 720px;
+    margin-left: 7.5%;
+    background-color: rgb(1, 4, 15, 0.5);
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    box-shadow: 3px black;
+}
+
+.kaki {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0,0.9);
+    margin-top: 800px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+}
+
+.kaki ul {
+    padding-top: 30px;
+}
+
+.kaki ul li {
+    padding-top: 5px;
+    margin-left: 20px;
+    list-style: none;
+    color: white;
+}

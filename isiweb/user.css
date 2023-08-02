@@ -1,0 +1,78 @@
+body {
+    margin: 0%;
+    background-color: rgb(164, 201, 233);
+    background-image: url(./imgasset/header2.jpg);
+    background-size: cover;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 55px;
+    font-family: sans-serif;
+    color: #444;
+    border: 1px solid #f2f5f7;
+}
+
+table tr th{
+    background: rgb(148, 185, 218);
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+}
+
+table, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+table tr:hover {
+    background-color: grey;
+}
+
+
+table tr {
+    background-color: #f5f5f5;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td a {
+    background-color: rgb(41, 235, 15);
+    border-radius: 3px;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+td.i a {
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+.tambah {
+    background-color: rgb(90, 140, 248);
+    border-radius: 3px;
+    border: none;
+    padding: 5px 8px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10PX;
+}

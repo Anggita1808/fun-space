@@ -1,0 +1,78 @@
+
+.login, .logip {
+    margin-top: 40px;
+    width: 70%;
+    height: 200px;
+    margin-left: 7.5%;
+    background-color: rgba(251, 252, 255, 0.5);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    padding-top: 2px;
+    box-sizing: border-box;
+    box-shadow: 3px black;
+    text-align: start;
+    position: relative;
+}
+
+.pinggir {
+    width: 5%;
+    height: 50px;
+    position: fixed;
+}
+
+.login p{
+    margin-left: -1%;
+}
+
+.logip h2{
+    margin-top: 3%;
+}
+
+.login p{
+    margin-left: 0%;
+}
+
+
+.login h2{
+    margin-top: 3%;
+    margin-left: -0.5%;
+}
+
+h2 {
+    line-height: 0px;
+}
+
+p {
+    margin-top: -15px;
+}
+
+.logip p{
+    margin-top: 1%;
+}
+
+
+.menu .headnya .login a, .menu .headnya .logip a {
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin-left: 90%;
+}
+
+.menu .headnya .login a:hover {
+    color: green;
+}
+
+
+.menu .headnya .logip a:hover {
+    color: green;
+}
